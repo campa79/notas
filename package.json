@@ -1,0 +1,11 @@
+{
+  "name": "your-php-app",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@vercel/php": "0.6.0"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT -t api/"
+  }
+}
